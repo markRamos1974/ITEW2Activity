@@ -46,4 +46,9 @@ registerBtn.addEventListener("click", () => {
         localStorage.setItem("users",  JSON.stringify(usersData))
     }
 
+    alert("Account Created")
+
+    window.location.href = "./index.html"
+ 
+
 })
